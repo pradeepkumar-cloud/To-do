@@ -9,7 +9,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo 'Checking out code...'
-                git branch: 'main', url: 'https://github.com/pradeepkumar-cloud/ToDo-App.git'
+                git branch: 'main', url: 'https://github.com/pradeepkumar-cloud/To-do.git'
             }
         }
 
